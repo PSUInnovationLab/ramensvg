@@ -1,0 +1,59 @@
+body{
+    background-color: #000;
+}
+
+.steam {
+    animation: steam;
+    animation-direction: alternate;
+    transition-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-duration: 1s;
+
+
+}
+
+
+
+
+@-webkit-keyframes steam {
+
+    0% {
+        -webkit-transform: translateX(-50px);
+        transform: translateX(-50px);
+
+    }
+
+    100% {
+        -webkit-transform: translateX(50px);
+        transform: translateX(50px);
+
+
+    }
+
+}
+
+
+
+
+
+.bowl{
+    width: 500px;
+    margin: auto;
+    padding-top: 100px;
+}
+
+
+#st1{
+    animation-delay: .2s;
+
+}
+
+#st2{
+    animation-delay: .5s;
+}
+#st3{
+    animation-delay: .8s;
+}
+#st4{
+    animation-delay: 1s;
+}
